@@ -7,14 +7,28 @@
 	-moz-box-sizing:border-box;
 }
 
+body {
+	font-size:16pt;
+}
+
 .hero {
-	background:url(../../graphics/styletile/images.jpg) no-repeat;
-	width:100%;
-	height:42.4375em;;
+	background:url(../../graphics/styletile/imagess.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1, h2, h3 {
+	font-family: 'Anton', sans-serif;
+}
+
+p, li {
+	font-family: 'Economica', sans-serif;
 }
 
 .wrapper {
-	width:80%;
+	width:71.112%;
 	margin:0 auto;
 }
 
@@ -23,9 +37,10 @@
 }
 
 ul {
+	color:white;
 	text-align:center;
-	margin-top:3.125em;
-	margin:left;
+	margin-top:3.125rem;
+	padding-left:0;
 }
 
 ul li {
@@ -34,11 +49,18 @@ ul li {
 }
 
 ul li:first-child {
-	margin-left:0px;
+	margin-left:0rem;
+}
+
+nav {
+	position:fixed;
+	left:0;
+	top:0;
+	background-color:rgba(0,0,0,0.45);
 }
 
 h1 {
-	margin:16.25em 0 0 1.875em;
+	margin:16.25em 0 0 1.875rem;
 	float:left;
 }
 
