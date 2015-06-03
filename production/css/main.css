@@ -12,7 +12,7 @@ body {
 }
 
 .hero {
-	background:url(../../graphics/styletile/imagess.jpg) no-repeat center center fixed; 
+	background:url(../../graphics/styletile/imagess.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,6 +21,7 @@ body {
 
 h1, h2, h3 {
 	font-family: 'Anton', sans-serif;
+	text-transform:uppercase;
 }
 
 p, li {
@@ -36,20 +37,26 @@ p, li {
 	overflow:auto;
 }
 
+
 ul {
 	color:white;
 	text-align:center;
-	margin-top:3.125rem;
+	margin-top:1rem;
 	padding-left:0;
 }
 
 ul li {
 	margin-left:100px;
 	display:inline-block;
+	text-transform:uppercase;
 }
 
 ul li:first-child {
 	margin-left:0rem;
+}
+
+.extraordinary {
+	margin-left:5rem;
 }
 
 nav {
@@ -64,6 +71,23 @@ h1 {
 	float:left;
 }
 
+h2 {
+	text-align:center;
+	font-size:5.125rem;
+	letter-spacing:2.5px;
+	word-spacing:15px;
+}
+
+h3 {
+	font-size:2rem;
+}
+
+.center-block {
+	float:none !important;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 .row {
 	width:100%;
 	padding-bottom:20px;
@@ -71,6 +95,12 @@ h1 {
 
 .blackbg {
 	background-color:black;
+}
+
+.blackbg p, .blackbg h1, .blackbg h2, .blackbg h3, .blackbg h4 {
+	color:white;
+	text-align:center;
+	padding:1rem;
 }
 
 .row:after {
